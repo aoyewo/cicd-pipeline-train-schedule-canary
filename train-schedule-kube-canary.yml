@@ -14,8 +14,7 @@ spec:
 
 ---
 
-apiVersion: extensions/v1beta1
-kind: Deployment
+apiVersion: apps/v1
 metadata:
   name: train-schedule-deployment-canary
   labels:
