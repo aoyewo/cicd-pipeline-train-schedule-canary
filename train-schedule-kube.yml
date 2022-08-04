@@ -17,6 +17,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: train-schedule-deployment
+  train-schedule-deployment-canary
   labels:
     app: train-schedule
 spec:
